@@ -11,7 +11,7 @@ int get_int_random_number(int min, int max) {
 	long long lmax = static_cast<long long>(max);
 	std::random_device rd;
 	std::mt19937 mersenne(rd());
-	const long long max_64{ 2'147'483'647 };
+	const long long max_64{ 2147483647 };
 	static const double fraction = 0.5 / (static_cast<double>(max_64) + 1.0);
 	return static_cast<int>(mersenne() * fraction * (lmax - lmin + 1) + min);
 }
