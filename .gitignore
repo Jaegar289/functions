@@ -1,0 +1,14 @@
+
+  
+# executable files
+*
+!/**/
+!*.*
+
+# vscode files
+.vscode/
+#temp files
+temp/
+#build files
+build/
+#useless files

@@ -1,3 +1,4 @@
 #pragma once
-#include "randomize.h"
-#include "cin_validate.h"
+#include "randomize.hpp"
+#include "cin_validate.hpp"
+
